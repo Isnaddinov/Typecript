@@ -1,0 +1,16 @@
+{
+    "admin":{
+        "name": "admin",
+        "password": 1234
+    },
+    "users":{
+        "name": "username",
+        "password": 1234
+    },
+    "fruit":{
+        "name": "Apple",
+        "color": "red",
+        "price": 15,
+        "count": 5
+    }
+}
