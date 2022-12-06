@@ -1,0 +1,3 @@
+GET http://localhost:9090/pupils HTTP/1.1
+Accept-Language: uz
+ 
