@@ -1,0 +1,16 @@
+POST  http://localhost:9090/radar
+Content-Type: text/plain
+
+70
+###
+POST  http://localhost:9090/car
+Content-Type: text/plain
+
+100
+###
+POST  http://localhost:9090/fine
+Content-Type: text/plain
+
+1000
+###
+GET  http://localhost:9090/calc

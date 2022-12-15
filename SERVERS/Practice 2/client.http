@@ -1,0 +1,9 @@
+POST http://localhost:9090/fruits
+Content-Type: text-plagin 
+
+banana
+###
+GET http://localhost:9090/fruits
+
+###
+DELETE  http://localhost:9090/fruits?index=0
