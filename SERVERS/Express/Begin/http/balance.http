@@ -1,0 +1,11 @@
+GET http://localhost:9090/balance
+
+###
+POST http://localhost:9090/balance
+Content-Type: application/json
+
+{
+    "amount": 1000
+}
+###
+DELETE http://localhost:9090/balance

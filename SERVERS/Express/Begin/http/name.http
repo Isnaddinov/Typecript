@@ -1,0 +1,9 @@
+GET http://localhost:9090/name
+
+###
+POST http://localhost:9090/name
+Content-Type: application/json
+
+{
+    "text": "Otabek" 
+}
