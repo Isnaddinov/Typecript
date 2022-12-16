@@ -1,0 +1,27 @@
+POST http://localhost:9090/radar
+Content-Type: application/json
+
+{
+    "rspeed":70
+}
+###
+POST http://localhost:9090/car
+Content-Type: application/json
+
+{
+    "cspeed":140
+}
+
+###
+POST http://localhost:9090/fine
+Content-Type: application/json
+
+{
+    "fprice":1000
+}
+
+###
+GET http://localhost:9090/calc
+
+###
+DELETE http://localhost:9090/remove
