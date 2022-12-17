@@ -1,0 +1,15 @@
+GET http://localhost:9090/books
+
+###
+POST  http://localhost:9090/books
+Content-Type: application/json
+
+{
+   "title": "1989",
+   "author": "Owrel",
+   "page": 29
+}
+
+###
+
+DELETE http://localhost:9090/books/1
