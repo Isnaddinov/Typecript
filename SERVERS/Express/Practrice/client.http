@@ -1,0 +1,13 @@
+POST  http://localhost:9090/radar
+Content-Type: application/json
+
+{
+    "radar":70,
+    "car": 100,
+    "fine":1200
+}
+
+###
+GET http://localhost:9090/calc
+
+
